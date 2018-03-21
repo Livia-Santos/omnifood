@@ -4,7 +4,7 @@
 */
 
 /* ------------------------------ */
-/*  Basic Setup */
+/*  BASIC SETUP */
 /* ------------------------------ */
 
 * {
@@ -32,7 +32,7 @@ html {
 
 
 /* ------------------------------ */
-/*  Reausable components */
+/*  REUSABLE COMPONENTS */
 /* ------------------------------ */
 
 .row {
@@ -48,7 +48,7 @@ section {
   padding: 1%;
 }
 
-/* -------HEADINGS--------------- */
+/* -------Headings--------------- */
 
 h1,
 h2,
@@ -90,7 +90,7 @@ h2:after {
   margin-top: 30px;
 }
 
-/* -------PARAGRAFS------------- */
+/* -------Paragrafs------------- */
 
 .long-copy {
   line-height: 145%;
@@ -113,7 +113,37 @@ h2:after {
   margin-bottom: 10px;
 }
 
-/* -------BUTTONS--------------- */
+.icon-small {
+  display: inline-block;
+  width: 30px;
+  text-align: center;
+  color: #cf6d17;
+  font-size: 120%;
+  margin-right: 10px;
+  /* secrets to align text icons */
+  line-height: 120%;
+  vertical-align: middle;
+  margin-top: -5px;
+}
+
+/* -------Links--------------- */
+
+a:link,
+a:visited {
+  color: #e67e22;
+  text-decoration: none;
+  padding-bottom: 1px;
+  border-bottom: 1px solid #e67e22;
+  transition: border-bottom 0.2s, color 0.2s;
+}
+
+a:hover,
+a:visited {
+  color: #555;
+  border-bottom: 1px solid transparent;
+}
+
+/* -------Buttons------------- */
 
 .btn:link,
 .btn:visited {
@@ -155,7 +185,7 @@ h2:after {
 }
 
 /* ------------------------------ */
-/*  Header */
+/*  HEADER */
 /* ------------------------------ */
 
 header {
@@ -297,9 +327,27 @@ header {
   font-size: 150%;
   margin-right: 25px;
 }
+.button-app:link,
+.button-app:visited {
+  border: 0;
+}
 
 .button-app img {
   height: 50px;
   width: auto;
   margin-right: 10px;
+}
+
+/* ------------------------------ */
+/*  CITIES
+/* ------------------------------ */
+
+.box img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.city-feature {
+  margin-bottom: 5px;
 }
