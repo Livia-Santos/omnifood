@@ -30,7 +30,6 @@ html {
   visibility: hidden;
 }
 
-
 /* ------------------------------ */
 /*  REUSABLE COMPONENTS */
 /* ------------------------------ */
@@ -485,7 +484,6 @@ input[type=checkbox] {
 *:focus {
   outline: none;
 }
-
 
 
 
